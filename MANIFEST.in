@@ -1,0 +1,7 @@
+include app/schema.sql
+graft app/controllers
+graft app/static
+graft app/templates
+graft app/models
+
+global-exclude *.pyc
