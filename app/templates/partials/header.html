@@ -1,0 +1,98 @@
+<div id="preloader-active">
+  <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+      </div>
+  </div>
+</div>
+<div class="header-area">
+  <div class="main-header ">
+    <!--  
+    <div class="header-top d-none d-lg-block">
+          <div class="container">
+              <div class="col-xl-12">
+                  <div class="row d-flex justify-content-between align-items-center">
+                      <div class="header-info-right">
+                          <ul>    
+                              <li><a href="#"><i class="ti-user"></i>Login</a></li>
+                              <li><a href="/#"><i class="ti-lock"></i>Register</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    -->
+      <div class="header-bottom header-sticky">
+          <!-- Logo -->
+          <div class="container">
+              <div class="menu-wrapper">
+                  <!-- Logo -->
+                  <div class="logo logo2 d-block d-lg-none">
+                  </div>
+                  <!-- Main-menu -->
+                  <div class="main-menu d-none d-lg-block">
+                      <nav>
+                          <ul id="navigation">                                                                                          
+                              <li><a href="/">Home</a></li>
+                              <li><a href="/dev">Developers</a></li>
+                              <li><a href="/map">Locust Tracker</a></li>
+                              <li><a href="/chatbot">Chatbot</a></li>
+                              <li><a href="/dash">Dashboard</a>
+                              </li>
+                              <li><a href="/contact">Contact</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+                  <!-- Header-btn -->
+              </div>
+              <!-- Mobile Menu -->
+              <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Header End -->
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-dark bg-black-dark text-white">
+  <div class="container">
+    <a class="text-white link-reset text-inherit pr-2" href="/">
+      Grow N Track
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="text-white link-reset text-inherit pr-3" href="/dash">
+      Dashboard
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        {% if g.user %}
+          <li class="nav-item p-2 pr-3">
+            <img src="{{ g.user['avatar_url'] }}" class='rounded mr-2' style='width:24px;height:24px;'/>
+            {{ g.user['username'] }}
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-inherit" href="{{ url_for('auth.logout') }}">Log out</a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link text-inherit text-white" href="{{ url_for('auth.githubLogin') }}">
+              Login with GitHub
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+
+    </div>
+  </div>
+</nav>
+-->
