@@ -3,7 +3,7 @@
 
 
 ```
-$ git clone https://github.com/Growandtrack/Build.git
+$ git clone https://github.com/Growandtrack/Webapp.git
 $ cd Build
 ```
 
