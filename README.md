@@ -3,6 +3,7 @@
 ## GROW N TRACK
 ![](https://github.com/anushkrishnav/Locust-build/raw/master/app/static/img/logo.jpeg)
 
+# Winner Best Out of the Box Hack at Hack for Africa: A Microsoft Challenge!
 ## Q1. What is a locust attack/invasion/plague ?
 When the locusts start attacking crops and thereby destroy the entire agricultural economy, it is referred to as locust plague/locust invasion. Plagues of locusts have devastated societies since the Pharaohs led ancient Egypt, and they still wreak havoc today.  Over 60 countries are susceptible to swarms.
 
