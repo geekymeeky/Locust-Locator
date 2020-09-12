@@ -1,4 +1,3 @@
-# HACK FOR AFRICA
 
 ## GROW N TRACK
 ![](https://github.com/anushkrishnav/Locust-build/raw/master/app/static/img/logo.jpeg)
