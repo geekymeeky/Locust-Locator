@@ -1,6 +1,7 @@
 from app.extensions import db
 from app.services.github import GitHub
 
+
 class User(db.Model):
     __tablename__ = 'user'
 
@@ -8,6 +9,10 @@ class User(db.Model):
     username = db.Column(db.String(80), unique=True, nullable=False)
     avatar_url = db.Column(db.String(80), nullable=True)
     github_id = db.Column(db.Integer(), nullable=True)
+    email = db.Column(db.String(320), unique=True, nullable=False)
+    password = db.Column(db.String(64), nullable=False)
+    city = db.Column(db.String(64), nullable=False)
+    phone_no = db.Column(db.Integer(), nullable=False)
 
     def __init__(self, username, avatar_url, github_id):
         self.username = username
